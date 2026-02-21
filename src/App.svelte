@@ -58,8 +58,8 @@ if (USE_ATLAS_PUBLIC) {
     const idx = await (await fetch(`${ATLAS_PUBLIC_BASE}/index.json`)).json()
     const latest = await (await fetch(`${ATLAS_PUBLIC_BASE}/latest.json`)).json()
     const ids = Array.isArray(idx) ? idx : (idx?.runs ?? [])
-    runs = ids.map((x:any)=>({ run_id: String(x) }))
-    if (latest?.run_id && !runs.find((r:any)=>r.run_id===latest.run_id)) {
+    runs = ids.map((x)=>({ run_id: String(x) }))
+    if (latest?.run_id && !runs.find((r)=>r.run_id===latest.run_id)) {
       runs.unshift({ run_id: String(latest.run_id) })
     }
   } catch {
