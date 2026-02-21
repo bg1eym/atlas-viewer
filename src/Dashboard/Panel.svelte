@@ -1,0 +1,96 @@
+<script>
+  let { title, count = null, status = "", statusClass = "", loading = false, error = null, children } = $props();
+</script>
+
+<div class="panel">
+  <div class="panel-header">
+    <div class="panel-title-row">
+      <h3 class="panel-title">{title}</h3>
+      {#if count !== null}
+        <span class="panel-count">{count}</span>
+      {/if}
+      {#if status}
+        <span class="panel-status {statusClass}">{status}</span>
+      {/if}
+      {#if loading}
+        <span class="panel-loading"></span>
+      {/if}
+    </div>
+  </div>
+  <div class="panel-content">
+    {#if error}
+      <div class="error-msg">{error}</div>
+    {:else if loading}
+      <div class="loading-msg">Loading...</div>
+    {:else}
+      {#if children}{@render children()}{/if}
+    {/if}
+  </div>
+</div>
+
+<style>
+  .panel {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0.75rem;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    min-height: 2rem;
+  }
+  .panel-title-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .panel-title {
+    font-size: 0.65rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-secondary);
+    margin: 0;
+  }
+  .panel-count {
+    font-size: 0.65rem;
+    font-weight: 500;
+    color: var(--accent);
+    background: rgba(var(--accent-rgb), 0.1);
+    padding: 0.1rem 0.4rem;
+    border-radius: 3px;
+  }
+  .panel-status {
+    font-size: 0.6rem;
+    font-weight: 600;
+    padding: 0.1rem 0.4rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  .panel-status.ok { color: var(--success); background: rgba(68, 255, 136, 0.15); }
+  .panel-status.empty { color: var(--warning); background: rgba(255, 170, 0, 0.15); }
+  .panel-status.error, .panel-status.blocked { color: var(--danger); background: rgba(255, 68, 68, 0.15); }
+  .panel-loading {
+    width: 12px;
+    height: 12px;
+    border: 2px solid var(--border);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .panel-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 0.5rem;
+  }
+  .error-msg { color: var(--danger); text-align: center; padding: 1rem; font-size: 0.7rem; }
+  .loading-msg { color: var(--text-secondary); text-align: center; padding: 1rem; font-size: 0.7rem; }
+</style>

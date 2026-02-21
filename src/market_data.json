@@ -1,0 +1,1002 @@
+{
+  "exa": {
+    "name": "exa",
+    "description": "Fast, intelligent web search and web crawling.\n\nNew mcp tool: Exa-code is a context tool for coding agents. It provides agents with fresh information about libraries, APIs, and SDKs with the purpose of reducing hallucinations.",
+    "stars": 6673791,
+    "source_url": "https://github.com/exa",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283304",
+    "last_seen": "2026-02-20T01:25:26.283317",
+    "owner_repo": "exa"
+  },
+  "brave": {
+    "name": "brave",
+    "description": "Visit https://brave.com/search/api/ for a free API key. Search the web, local businesses, images, videos, and news with rich, structured results. Refine results by country, language, freshness, and SafeSearch to pinpoint what you need. Generate concise summaries of findings to grasp key points faster.",
+    "stars": 4271,
+    "source_url": "https://github.com/brave",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283326",
+    "last_seen": "2026-02-20T01:25:26.283329",
+    "owner_repo": "brave"
+  },
+  "LinkupPlatform/linkup-mcp-server": {
+    "name": "linkup-mcp-server",
+    "description": "Search the web in real time to get trustworthy, source-backed answers. Find the latest news and comprehensive results from the most relevant sources. Use natural language queries to quickly gather facts, citations, and context.",
+    "stars": 24049,
+    "source_url": "https://github.com/LinkupPlatform/linkup-mcp-server",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283336",
+    "last_seen": "2026-02-20T01:25:26.283338",
+    "owner_repo": "LinkupPlatform/linkup-mcp-server"
+  },
+  "EduBase/MCP": {
+    "name": "MCP",
+    "description": "Interact with EduBase through our MCP server. Create dynamic quizzes, manage secure exams, and automate comprehensive assessment workflows. This seamless integration empowers educators to create personalized learning experiences, conduct secure online examinations, and scale assessment solutions with enterprise-grade security and compliance. Ideal for educational institutions, corporate training departments, and certification providers seeking to transform their digital learning infrastructure with AI-powered capabilities. Integrate with your existing systems through our secure API.\n\nCheck out our GitHub page for more details and setup instructions!",
+    "stars": 10949,
+    "source_url": "https://github.com/EduBase/MCP",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283343",
+    "last_seen": "2026-02-20T01:25:26.283345",
+    "owner_repo": "EduBase/MCP"
+  },
+  "upstash/context7-mcp": {
+    "name": "context7-mcp",
+    "description": "Fetch up-to-date, version-specific documentation and code examples directly into your prompts. Enhance your coding experience by eliminating outdated information and hallucinated APIs. Simply add `use context7` to your questions for accurate and relevant answers.",
+    "stars": 18600,
+    "source_url": "https://github.com/upstash/context7-mcp",
+    "status": "Not OC (SDK missing)",
+    "discovered_at": "2026-02-20T01:25:26.283349",
+    "last_seen": "2026-02-20T01:25:26.283351",
+    "owner_repo": "upstash/context7-mcp"
+  },
+  "github": {
+    "name": "github",
+    "description": "GitHub is a code hosting platform for version control and collaboration, offering Git-based repository management, issue tracking, and continuous integration features",
+    "stars": 4953,
+    "source_url": "https://github.com/github",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283355",
+    "last_seen": "2026-02-20T01:25:26.283357",
+    "owner_repo": "github"
+  },
+  "brightdata": {
+    "name": "brightdata",
+    "description": "One (free) MCP for the Web. Easily search, crawl, navigate, and extract websites without getting blocked. Ideal for discovering and retrieving structured insights from any public source - effortlessly and ethically.\n\nNew features are live - check out what\u2019s new: https://brightdata.com/ai/mcp-server/launch-week",
+    "stars": 3766,
+    "source_url": "https://github.com/brightdata",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283360",
+    "last_seen": "2026-02-20T01:25:26.283362",
+    "owner_repo": "brightdata"
+  },
+  "notion": {
+    "name": "notion",
+    "description": "Search across your Notion workspace and connected sources to quickly find pages, databases, and users. View full page and database details for deeper context. Create and update pages, manage databases, move or duplicate content, and add comments to keep work organized.",
+    "stars": 5962,
+    "source_url": "https://github.com/notion",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283365",
+    "last_seen": "2026-02-20T01:25:26.283367",
+    "owner_repo": "notion"
+  },
+  "microsoft/learn_mcp": {
+    "name": "learn_mcp",
+    "description": "The Microsoft Learn MCP Server is a remote MCP Server that enables clients like GitHub Copilot and other AI agents to bring trusted and up-to-date information directly from Microsoft's official documentation. It supports streamable http transport, which is lightweight for clients to use.",
+    "stars": 2708,
+    "source_url": "https://github.com/microsoft/learn_mcp",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283370",
+    "last_seen": "2026-02-20T01:25:26.283372",
+    "owner_repo": "microsoft/learn_mcp"
+  },
+  "browserbasehq/mcp-browserbase": {
+    "name": "mcp-browserbase",
+    "description": "Provides cloud browser automation capabilities using Stagehand and Browserbase, enabling LLMs to interact with web pages, take screenshots, and run parallel sessions in a cloud browser environment.",
+    "stars": 4034,
+    "source_url": "https://github.com/browserbasehq/mcp-browserbase",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283376",
+    "last_seen": "2026-02-20T01:25:26.283378",
+    "owner_repo": "browserbasehq/mcp-browserbase"
+  },
+  "Supabase": {
+    "name": "Supabase",
+    "description": "Search the Supabase docs for up-to-date guidance and troubleshoot errors quickly. Manage organizations, projects, databases, and Edge Functions, including migrations, SQL, logs, advisors, keys, and type generation, in one flow. Create and manage development branches to iterate safely, confirm costs up front, and merge changes to production with confidence.",
+    "stars": 8913,
+    "source_url": "https://github.com/Supabase",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283381",
+    "last_seen": "2026-02-20T01:25:26.283383",
+    "owner_repo": "Supabase"
+  },
+  "gmail": {
+    "name": "gmail",
+    "description": "Manage Gmail end-to-end: send, draft, reply, forward, and bulk-modify or delete messages and threads. Organize your inbox with labels, archiving, and trashing, and retrieve messages, attachments, and profile details on demand. Access and search contacts to autofill recipients and keep people data in sync.",
+    "stars": 14877,
+    "source_url": "https://github.com/gmail",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283386",
+    "last_seen": "2026-02-20T01:25:26.283388",
+    "owner_repo": "gmail"
+  },
+  "slack": {
+    "name": "slack",
+    "description": "Slack is a channel-based messaging platform. With Slack, people can work together more effectively, connect all their software tools and services, and find the information they need to do their best work \u2014 all within a secure, enterprise-grade environment.",
+    "stars": 11800,
+    "source_url": "https://github.com/slack",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283391",
+    "last_seen": "2026-02-20T01:25:26.283393",
+    "owner_repo": "slack"
+  },
+  "googlesheets": {
+    "name": "googlesheets",
+    "description": "Google Sheets is a cloud-based spreadsheet tool enabling real-time collaboration, data analysis, and integration with other Google Workspace apps",
+    "stars": 6813,
+    "source_url": "https://github.com/googlesheets",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283396",
+    "last_seen": "2026-02-20T01:25:26.283398",
+    "owner_repo": "googlesheets"
+  },
+  "googlecalendar": {
+    "name": "googlecalendar",
+    "description": "Google Calendar is a time management tool providing scheduling features, event reminders, and integration with email and other apps for streamlined organization",
+    "stars": 5422,
+    "source_url": "https://github.com/googlecalendar",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283401",
+    "last_seen": "2026-02-20T01:25:26.283403",
+    "owner_repo": "googlecalendar"
+  },
+  "googlesuper": {
+    "name": "googlesuper",
+    "description": "Google Super App combines all Google services including Drive, Calendar, Gmail, Sheets, Analytics, Ads, and more, providing a unified platform for seamless integration and management of your digital life.",
+    "stars": 6907,
+    "source_url": "https://github.com/googlesuper",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283406",
+    "last_seen": "2026-02-20T01:25:26.283408",
+    "owner_repo": "googlesuper"
+  },
+  "hubspot": {
+    "name": "hubspot",
+    "description": "HubSpot is an inbound marketing, sales, and customer service platform integrating CRM, email automation, and analytics to facilitate lead nurturing and seamless customer experiences",
+    "stars": 2712,
+    "source_url": "https://github.com/hubspot",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283411",
+    "last_seen": "2026-02-20T01:25:26.283413",
+    "owner_repo": "hubspot"
+  },
+  "airtable": {
+    "name": "airtable",
+    "description": "Airtable merges spreadsheet functionality with database power, enabling teams to organize projects, track tasks, and collaborate through customizable views, automation, and integrations for data management",
+    "stars": 3344,
+    "source_url": "https://github.com/airtable",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283416",
+    "last_seen": "2026-02-20T01:25:26.283418",
+    "owner_repo": "airtable"
+  },
+  "google_maps": {
+    "name": "google_maps",
+    "description": "Integrate Google Maps to access location data, geocoding, directions, and mapping services in your application.",
+    "stars": 2775,
+    "source_url": "https://github.com/google_maps",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283421",
+    "last_seen": "2026-02-20T01:25:26.283423",
+    "owner_repo": "google_maps"
+  },
+  "hamid-vakilzadeh/mcpsemanticscholar": {
+    "name": "mcpsemanticscholar",
+    "description": "The server provides immediate access to millions of academic papers through Semantic Scholar and arXiv, enabling AI-powered research with comprehensive search, citation analysis, and full-text PDF extraction from multiple sources (arXiv and Wiley open-access).\n\n - No API key is required.\n",
+    "stars": 60289,
+    "source_url": "https://github.com/hamid-vakilzadeh/mcpsemanticscholar",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283427",
+    "last_seen": "2026-02-20T01:25:26.283429",
+    "owner_repo": "hamid-vakilzadeh/mcpsemanticscholar"
+  },
+  "kkjdaniel/bgg-mcp": {
+    "name": "bgg-mcp",
+    "description": "BGG MCP provides access to BoardGameGeek and a variety of board game related data through the Model Context Protocol. Enabling retrieval and filtering of board game data, user collections, and profiles.",
+    "stars": 5005,
+    "source_url": "https://github.com/kkjdaniel/bgg-mcp",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283432",
+    "last_seen": "2026-02-20T01:25:26.283434",
+    "owner_repo": "kkjdaniel/bgg-mcp"
+  },
+  "sfiorini/youtube-mcp": {
+    "name": "youtube-mcp",
+    "description": "Search and browse videos, channels, and playlists to fetch titles, descriptions, stats, and durations.\n\nRetrieve multilingual, timestamped transcripts and search within captions for precise context.\n\nSurface channel and playlist insights quickly by listing items and details.",
+    "stars": 5218,
+    "source_url": "https://github.com/sfiorini/youtube-mcp",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283438",
+    "last_seen": "2026-02-20T01:25:26.283439",
+    "owner_repo": "sfiorini/youtube-mcp"
+  },
+  "AgentWings/exa-mcp-server": {
+    "name": "exa-mcp-server",
+    "description": "Search the web and codebases to get precise, up-to-date context for programming and research. Find examples, API usage, and documentation from real repositories and sites to ship faster with fewer mistakes. Extend investigations with deep search, crawling, and business or profile lookups when needed.",
+    "stars": 3074,
+    "source_url": "https://github.com/AgentWings/exa-mcp-server",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283443",
+    "last_seen": "2026-02-20T01:25:26.283445",
+    "owner_repo": "AgentWings/exa-mcp-server"
+  },
+  "skymoore/grokipedia-mcp": {
+    "name": "grokipedia-mcp",
+    "description": "Search and retrieve Grokipedia articles with filters, full content, and citations. Explore related pages and extract sections to quickly gather relevant knowledge. Run guided workflows to research topics, find sources, and compare subjects.",
+    "stars": 3866,
+    "source_url": "https://github.com/skymoore/grokipedia-mcp",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283448",
+    "last_seen": "2026-02-20T01:25:26.283450",
+    "owner_repo": "skymoore/grokipedia-mcp"
+  },
+  "samihalawa/whatsapp-go-mcp": {
+    "name": "whatsapp-go-mcp",
+    "description": "Scan QR codes and go! No more troublesome autos or APIs! Send text messages, images, links, locations, and contact cards to WhatsApp chats and groups. Automate notifications, alerts, and outreach from your workflows. ",
+    "stars": 12427,
+    "source_url": "https://github.com/samihalawa/whatsapp-go-mcp",
+    "status": "Not OC (SDK missing)",
+    "discovered_at": "2026-02-20T01:25:26.283454",
+    "last_seen": "2026-02-20T01:25:26.283455",
+    "owner_repo": "samihalawa/whatsapp-go-mcp"
+  },
+  "imbenrabi/financial-modeling-prep-mcp-server": {
+    "name": "financial-modeling-prep-mcp-server",
+    "description": "Complete financial market access for AI assistants - Real-time stocks, crypto, forex, and comprehensive market data integration - access FMP free and paid API tiers.\n\n250+ financial tools covering stock analysis, cryptocurrency trading, market intelligence, and portfolio management. Configure specific tool subsets for streamlined workflows.\n\n(BETA) Dynamic Tool Management: For improved efficiency and a lower cognitive load on the AI, our server now supports dynamic tool discovery.\nThis ensures the AI has access to the right tools at the right time without being overwhelmed by the full list of 250+ functions.\n\nThe server also support static toolsets activation via configuration for improved performance.\n\n- Usage Guide: https://github.com/imbenrabi/Financial-Modeling-Prep-MCP-Server/blob/main/README.md#smitheryai\n- System Prompts Suggestions: https://github.com/imbenrabi/Financial-Modeling-Prep-MCP-Server/blob/main/README.md#example-system-prompts\n\nMarkets: Real-time stocks, crypto, forex, global exchanges (NYSE, NASDAQ)\nAnalysis: Company fundamentals, technical indicators, financial ratios\nIntelligence: News sentiment, analyst ratings, economic indicators\nTrading: Portfolio tracking, risk metrics, backtesting tools\n\nCategories: Finance, Trading, Cryptocurrency, Investment, Market Data\n\nAPI Documentation: https://site.financialmodelingprep.com/developer/docs",
+    "stars": 5592,
+    "source_url": "https://github.com/imbenrabi/financial-modeling-prep-mcp-server",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283459",
+    "last_seen": "2026-02-20T01:25:26.283461",
+    "owner_repo": "imbenrabi/financial-modeling-prep-mcp-server"
+  },
+  "KISOpenAPI/kis-code-assistant-mcp": {
+    "name": "kis-code-assistant-mcp",
+    "description": "\ud55c\uad6d\ud22c\uc790 \ucf54\ub529\ub3c4\uc6b0\ubbf8 MCP (KIS Code Assistant MCP)\n\ud55c\uad6d\ud22c\uc790 \ucf54\ub529\ub3c4\uc6b0\ubbf8 MCP\ub294 \ud55c\uad6d\ud22c\uc790\uc99d\uad8c\uc758 \uc218\ub9ce\uc740 Open API \uc911\uc5d0\uc11c \uc790\uc5f0\uc5b4 \uac80\uc0c9\uc73c\ub85c \uad00\ub828 API\ub97c \ucc3e\uace0, \ud638\ucd9c \uc608\uc81c(\ud30c\ub77c\ubbf8\ud130 \ud3ec\ud568)\uae4c\uc9c0 \uc790\ub3d9 \uad6c\uc131\ud574\uc8fc\ub294 MCP \uc11c\ubc84\uc785\ub2c8\ub2e4.\n\n\"\ubb34\uc5c7\uc744 \ud558\uace0 \uc2f6\uc740\uc9c0\"\ub9cc \ub9d0\ud558\uba74, \uad00\ub828 API\ub97c \ucd94\ucc9c\ud558\uace0 \uc608\uc2dc \ud638\ucd9c \ucf54\ub4dc\ub97c \ub9cc\ub4e4\uc5b4 \ub4dc\ub9bd\ub2c8\ub2e4.\n- \uc790\uc5f0\uc5b4 \uac80\uc0c9: \"\uc0bc\uc131\uc804\uc790 \ud604\uc7ac\uac00 \ubcf4\uc5ec\uc918\", \"\ud574\uc678\uc8fc\uc2dd \uc794\uace0 \ud655\uc778\" \uac19\uc740 \uc790\uc5f0\uc5b4 \ubb38\uc7a5\uc73c\ub85c \ud0d0\uc0c9\n- \uc608\uc81c \ud638\ucd9c \uad6c\uc131: \ud544\uc694 \ud30c\ub77c\ubbf8\ud130\uc640 \uc751\ub2f5 \uad6c\uc870\ub97c \ud568\uaed8 \uc548\ub0b4\n- \uc2e4\uc2dc\uac04 \uc5c5\ub370\uc774\ud2b8: \ucd5c\uc2e0 API \uc815\ubcf4\ub97c \ud56d\uc0c1 \ubc18\uc601\ud569\ub2c8\ub2e4\n\nKIS Code Assistant MCP helps you find stock and trading APIs with simple natural language.\nJust say what you want, and it builds example calls with parameters instantly.\n\n",
+    "stars": 11864,
+    "source_url": "https://github.com/KISOpenAPI/kis-code-assistant-mcp",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283465",
+    "last_seen": "2026-02-20T01:25:26.283467",
+    "owner_repo": "KISOpenAPI/kis-code-assistant-mcp"
+  },
+  "SHAY5555-gif/chrome-devtools-mcp-2": {
+    "name": "chrome-devtools-mcp-2",
+    "description": "Automate Chrome pages with clicks, form fills, navigation, and in-page scripting. Inspect console and network activity, take screenshots or text snapshots, and manage multiple pages. Analyze performance with trace recordings, throttling, and Core Web Vitals insights",
+    "stars": 4309,
+    "source_url": "https://github.com/SHAY5555-gif/chrome-devtools-mcp-2",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283470",
+    "last_seen": "2026-02-20T01:25:26.283472",
+    "owner_repo": "SHAY5555-gif/chrome-devtools-mcp-2"
+  },
+  "CaullenOmdahl/nextjs-react-tailwind-assistant": {
+    "name": "nextjs-react-tailwind-assistant",
+    "description": "Your comprehensive AI companion for building modern Next.js applications with React and Tailwind CSS. This MCP server provides instant access to complete documentation, production-ready components, and battle-tested design patterns abstracted from professional templates.",
+    "stars": 2992,
+    "source_url": "https://github.com/CaullenOmdahl/nextjs-react-tailwind-assistant",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283475",
+    "last_seen": "2026-02-20T01:25:26.283477",
+    "owner_repo": "CaullenOmdahl/nextjs-react-tailwind-assistant"
+  },
+  "alexcz-a11y/jina-httpstreamable": {
+    "name": "jina-httpstreamable",
+    "description": "Discover current information across the web and arXiv with powerful search, query expansion, and parallel exploration. Extract clean page content, capture screenshots, and find images to enrich your analysis. Rerank and deduplicate results and estimate page update times to keep insights relevant.",
+    "stars": 18389,
+    "source_url": "https://github.com/alexcz-a11y/jina-httpstreamable",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283483",
+    "last_seen": "2026-02-20T01:25:26.283485",
+    "owner_repo": "alexcz-a11y/jina-httpstreamable"
+  },
+  "anirbanbasu/frankfurtermcp": {
+    "name": "frankfurtermcp",
+    "description": "A MCP server for the Frankfurter API for currency exchange rates.",
+    "stars": 4571,
+    "source_url": "https://github.com/anirbanbasu/frankfurtermcp",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283489",
+    "last_seen": "2026-02-20T01:25:26.283491",
+    "owner_repo": "anirbanbasu/frankfurtermcp"
+  },
+  "pinkpixel-dev/web-scout-mcp": {
+    "name": "web-scout-mcp",
+    "description": "Search the web and extract clean, readable text from webpages. Process multiple URLs at once to speed up research with reliable throttling and error handling. Quickly compile sources and summaries for briefs, reports, or competitive analysis.",
+    "stars": 9178,
+    "source_url": "https://github.com/pinkpixel-dev/web-scout-mcp",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283494",
+    "last_seen": "2026-02-20T01:25:26.283496",
+    "owner_repo": "pinkpixel-dev/web-scout-mcp"
+  },
+  "enriquedlh97/playwright-mcp": {
+    "name": "playwright-mcp",
+    "description": "Automate web browsing with fast, reliable actions driven by structured page snapshots. Click, type, navigate, manage tabs, and extract content without screenshots or vision models. Get deterministic results for testing, research, and routine web tasks.",
+    "stars": 7847,
+    "source_url": "https://github.com/enriquedlh97/playwright-mcp",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283499",
+    "last_seen": "2026-02-20T01:25:26.283501",
+    "owner_repo": "enriquedlh97/playwright-mcp"
+  },
+  "smithery-ai/national-weather-service": {
+    "name": "national-weather-service",
+    "description": "Provide real-time and forecast weather information for locations in the United States using natural language queries. Access current conditions, multi-day and hourly forecasts, weather alerts, and nearby weather stations without requiring an API key. Enable users to get official, government-sourced weather data easily through intuitive tools.",
+    "stars": 4577,
+    "source_url": "https://github.com/smithery-ai/national-weather-service",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283505",
+    "last_seen": "2026-02-20T01:25:26.283507",
+    "owner_repo": "smithery-ai/national-weather-service"
+  },
+  "amalinakurniasari/conduit": {
+    "name": "conduit",
+    "description": "Automate Figma from your workflow to design at the speed of thought. Create, style, and arrange text, shapes, components, images, variables, and layouts\u2014including batch operations and auto layout. Export assets and HTML/CSS, manage pages and selections, and stay in sync with live changes for fast collaboration.",
+    "stars": 6011,
+    "source_url": "https://github.com/amalinakurniasari/conduit",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283510",
+    "last_seen": "2026-02-20T01:25:26.283512",
+    "owner_repo": "amalinakurniasari/conduit"
+  },
+  "amalinakurniasari/figmamcp": {
+    "name": "figmamcp",
+    "description": "Control Figma to create, edit, and organize designs in real time. Generate components and variants, apply styles and variables, manage text, vectors, images, and auto layout with powerful batch operations. Export assets and code (PNG/SVG/PDF, HTML/CSS) and stay in sync with selections, pages, and document events to streamline your workflow.",
+    "stars": 5549,
+    "source_url": "https://github.com/amalinakurniasari/figmamcp",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283515",
+    "last_seen": "2026-02-20T01:25:26.283517",
+    "owner_repo": "amalinakurniasari/figmamcp"
+  },
+  "synthetic-ci/vibe-marketing": {
+    "name": "vibe-marketing",
+    "description": "An MCP server designed for AI-powered marketing and social media content creation. This service provides tools, templates, and frameworks to help create engaging content across top social media platforms.",
+    "stars": 8029,
+    "source_url": "https://github.com/synthetic-ci/vibe-marketing",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283521",
+    "last_seen": "2026-02-20T01:25:26.283522",
+    "owner_repo": "synthetic-ci/vibe-marketing"
+  },
+  "waldzellai/clear-thought": {
+    "name": "clear-thought",
+    "description": "[FINAL UPDATE]\n\nfuture updates will be rolled out to Thoughtbox --> https://smithery.ai/server/@Kastalien-Research/clear-thought-two ",
+    "stars": 3493,
+    "source_url": "https://github.com/waldzellai/clear-thought",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283526",
+    "last_seen": "2026-02-20T01:25:26.283528",
+    "owner_repo": "waldzellai/clear-thought"
+  },
+  "xinkuang/china-stock-mcp": {
+    "name": "china-stock-mcp",
+    "description": "Access real-time and historical market data for China A-shares and Hong Kong stocks, along with news and macro indicators. Retrieve financial statements, key ratios, shareholder and insider activity, sentiment analysis, and company profiles to power investment research and strategies.",
+    "stars": 2881,
+    "source_url": "https://github.com/xinkuang/china-stock-mcp",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283531",
+    "last_seen": "2026-02-20T01:25:26.283533",
+    "owner_repo": "xinkuang/china-stock-mcp"
+  },
+  "ebartan/bodrum-mcp-2025": {
+    "name": "bodrum-mcp-2025",
+    "description": "Provide a flexible and extensible server implementation for the Model Context Protocol to enable dynamic integration of LLMs with external data, tools, and prompts. Facilitate seamless interaction between language models and real-world resources through a standardized JSON-RPC interface. Enhance LLM applications by exposing customizable capabilities and resources securely and efficiently.",
+    "stars": 4159,
+    "source_url": "https://github.com/ebartan/bodrum-mcp-2025",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283536",
+    "last_seen": "2026-02-20T01:25:26.283538",
+    "owner_repo": "ebartan/bodrum-mcp-2025"
+  },
+  "EthanHenrickson/math-mcp": {
+    "name": "math-mcp",
+    "description": "Enable your LLMs to perform accurate numerical calculations with a simple API. Leverage basic arithmetic and statistical functions to enhance your applications. Simplify complex mathematical tasks effortlessly and improve your model's capabilities.",
+    "stars": 13705,
+    "source_url": "https://github.com/EthanHenrickson/math-mcp",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283542",
+    "last_seen": "2026-02-20T01:25:26.283544",
+    "owner_repo": "EthanHenrickson/math-mcp"
+  },
+  "STUzhy/py_execute_mcp": {
+    "name": "py_execute_mcp",
+    "description": "Run Python code in a secure sandbox without local setup. Declare inline dependencies and execute snippets instantly. Prototype, test, and share reproducible results with ease.",
+    "stars": 5213,
+    "source_url": "https://github.com/STUzhy/py_execute_mcp",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283550",
+    "last_seen": "2026-02-20T01:25:26.283552",
+    "owner_repo": "STUzhy/py_execute_mcp"
+  },
+  "lumberjack-so/joemcp": {
+    "name": "joemcp",
+    "description": "Manage clients, contacts, proposals, estimates, and projects in Joe API. Create and track action items, assign supervisors, and coordinate schedules to keep work moving. Monitor project finances with summaries and detailed views to make informed decisions.",
+    "stars": 12548,
+    "source_url": "https://github.com/lumberjack-so/joemcp",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283555",
+    "last_seen": "2026-02-20T01:25:26.283557",
+    "owner_repo": "lumberjack-so/joemcp"
+  },
+  "hamcommania-design/my-mcp-server": {
+    "name": "my-mcp-server",
+    "description": "Kickstart your TypeScript build with ready-to-use examples for actions and resources. Customize and expand with features like greetings, time, math, and image generation. Ship faster with a clear structure that\u2019s easy to adapt.",
+    "stars": 3067,
+    "source_url": "https://github.com/hamcommania-design/my-mcp-server",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283560",
+    "last_seen": "2026-02-20T01:25:26.283562",
+    "owner_repo": "hamcommania-design/my-mcp-server"
+  },
+  "aniruddha-adhikary/gahmen-mcp": {
+    "name": "gahmen-mcp",
+    "description": "Provide seamless access to open datasets and collections from data.gov.sg. Enable searching, metadata retrieval, and filtered dataset downloads for analysis.",
+    "stars": 5726,
+    "source_url": "https://github.com/aniruddha-adhikary/gahmen-mcp",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283565",
+    "last_seen": "2026-02-20T01:25:26.283567",
+    "owner_repo": "aniruddha-adhikary/gahmen-mcp"
+  },
+  "hjsh200219/fortuneteller": {
+    "name": "fortuneteller",
+    "description": "Discover personalized Four Pillars (Saju) readings, from daily to yearly fortunes and 10-year luck cycles, based on your birth data. Check relationship compatibility and receive Yongshin-driven guidance with practical tips on colors, directions, and careers. Convert between lunar and solar calendars and tailor interpretations across different schools.",
+    "stars": 17459,
+    "source_url": "https://github.com/hjsh200219/fortuneteller",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283571",
+    "last_seen": "2026-02-20T01:25:26.283573",
+    "owner_repo": "hjsh200219/fortuneteller"
+  },
+  "HelloGGX/shadcn-vue-mcp": {
+    "name": "shadcn-vue-mcp",
+    "description": "Shadcn-vue MCP Server is a powerful AI-driven tool that helps developers instantly create beautiful, modern UI components through natural language descriptions. It integrates the shadcn-vue component library and tailwindcss, seamlessly connects with mainstream IDEs, and provides a streamlined UI development workflow.",
+    "stars": 3889,
+    "source_url": "https://github.com/HelloGGX/shadcn-vue-mcp",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283576",
+    "last_seen": "2026-02-20T01:25:26.283578",
+    "owner_repo": "HelloGGX/shadcn-vue-mcp"
+  },
+  "blake365/macrostrat-mcp": {
+    "name": "macrostrat-mcp",
+    "description": "Explore global geologic data to answer questions about bedrock, formations, ages, and stratigraphy. Retrieve units, columns, minerals, timescales, and definitions for any location to build accurate geological context. Generate geology map tiles for quick visualization of areas of interest.",
+    "stars": 4609,
+    "source_url": "https://github.com/blake365/macrostrat-mcp",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283582",
+    "last_seen": "2026-02-20T01:25:26.283583",
+    "owner_repo": "blake365/macrostrat-mcp"
+  },
+  "devbrother2024/my-mcp-server-250925": {
+    "name": "my-mcp-server-250925",
+    "description": "Send friendly greetings in multiple languages, run quick calculations, and get the current time for any timezone. Generate images from text prompts to visualize ideas. Boost development with a ready-made code review prompt.",
+    "stars": 4649,
+    "source_url": "https://github.com/devbrother2024/my-mcp-server-250925",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283587",
+    "last_seen": "2026-02-20T01:25:26.283589",
+    "owner_repo": "devbrother2024/my-mcp-server-250925"
+  },
+  "anirbanbasu/pymcp": {
+    "name": "pymcp",
+    "description": "Primarily to be used as a template repository for developing MCP servers with FastMCP in Python, PyMCP is somewhat inspired by the official everything MCP server in Typescript.",
+    "stars": 3835,
+    "source_url": "https://github.com/anirbanbasu/pymcp",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283592",
+    "last_seen": "2026-02-20T01:25:26.283594",
+    "owner_repo": "anirbanbasu/pymcp"
+  },
+  "zwldarren/akshare-one-mcp": {
+    "name": "akshare-one-mcp",
+    "description": "Provide access to Chinese stock market data including historical prices, real-time data, news, and financial statements. Retrieve comprehensive financial information for stocks with flexible parameters. Enhance your financial analysis and decision-making with up-to-date market insights.",
+    "stars": 5093,
+    "source_url": "https://github.com/zwldarren/akshare-one-mcp",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283597",
+    "last_seen": "2026-02-20T01:25:26.283599",
+    "owner_repo": "zwldarren/akshare-one-mcp"
+  },
+  "devbrother2024/my-mcp-server-251209": {
+    "name": "my-mcp-server-251209",
+    "description": "Get the current time, greet users, run quick calculations, geocode places, and check live weather in one place. Check system status on demand and request fast code reviews. Extend to match your workflow as your needs grow.",
+    "stars": 3313,
+    "source_url": "https://github.com/devbrother2024/my-mcp-server-251209",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283602",
+    "last_seen": "2026-02-20T01:25:26.283604",
+    "owner_repo": "devbrother2024/my-mcp-server-251209"
+  },
+  "cfocoder/financial-modeling-prep-mcp-server": {
+    "name": "financial-modeling-prep-mcp-server",
+    "description": "Access comprehensive market data to research stocks, companies, indexes, ETFs, crypto, forex, and macroeconomics. Retrieve real-time quotes, financial statements, ratios, technical indicators, news, SEC filings, earnings, and calendars to power analyses and reports. Load only the data categories you need for faster, streamlined workflows.",
+    "stars": 6495,
+    "source_url": "https://github.com/cfocoder/financial-modeling-prep-mcp-server",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283608",
+    "last_seen": "2026-02-20T01:25:26.283609",
+    "owner_repo": "cfocoder/financial-modeling-prep-mcp-server"
+  },
+  "gigachadtrey/websimm": {
+    "name": "websimm",
+    "description": "Discover WebSim projects, creators, and trending content with powerful search and filters. Inspect project details, screenshots, comments, and engagement stats to guide research and curation. Track user profiles and activity to surface influential creators and relevant assets.",
+    "stars": 4501,
+    "source_url": "https://github.com/gigachadtrey/websimm",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283613",
+    "last_seen": "2026-02-20T01:25:26.283615",
+    "owner_repo": "gigachadtrey/websimm"
+  },
+  "isdaniel/mcp_weather_server": {
+    "name": "mcp_weather_server",
+    "description": "Retrieve real-time weather information effortlessly for any city. Get accurate weather updates using a simple command or API call without needing an API key. Enhance your applications with reliable weather data from the Open-Meteo API.",
+    "stars": 6328,
+    "source_url": "https://github.com/isdaniel/mcp_weather_server",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283618",
+    "last_seen": "2026-02-20T01:25:26.283620",
+    "owner_repo": "isdaniel/mcp_weather_server"
+  },
+  "smithery-ai/fetch": {
+    "name": "fetch",
+    "description": "A simple tool that performs a fetch request to a webpage.",
+    "stars": 8296,
+    "source_url": "https://github.com/smithery-ai/fetch",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283623",
+    "last_seen": "2026-02-20T01:25:26.283625",
+    "owner_repo": "smithery-ai/fetch"
+  },
+  "Funding-Machine/ghl-mcp-fundingmachine": {
+    "name": "ghl-mcp-fundingmachine",
+    "description": "Automate GoHighLevel across CRM, messaging, calendars, marketing, e-commerce, and billing. Manage contacts, conversations, opportunities, appointments, invoices, and payments from a single workflow. Accelerate operations with bulk updates, smart upserts, and powerful search.",
+    "stars": 7432,
+    "source_url": "https://github.com/Funding-Machine/ghl-mcp-fundingmachine",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283629",
+    "last_seen": "2026-02-20T01:25:26.283630",
+    "owner_repo": "Funding-Machine/ghl-mcp-fundingmachine"
+  },
+  "Quegenx/wapulse-whatsapp-mcp": {
+    "name": "wapulse-whatsapp-mcp",
+    "description": "Provide an MCP server interface for the WaPulse WhatsApp Web API, enabling integration and interaction with WhatsApp Web through the Model Context Protocol. Facilitate seamless communication and automation for clients using MCP-compatible tools and resources.",
+    "stars": 2948,
+    "source_url": "https://github.com/Quegenx/wapulse-whatsapp-mcp",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283634",
+    "last_seen": "2026-02-20T01:25:26.283636",
+    "owner_repo": "Quegenx/wapulse-whatsapp-mcp"
+  },
+  "Aas-ee/open-websearch": {
+    "name": "open-websearch",
+    "description": "Web search using free multi-engine search (NO API KEYS REQUIRED) \u2014 Supports Bing, Baidu, DuckDuckGo, Brave, Exa, Github, Juejin, and CSDN.",
+    "stars": 9516,
+    "source_url": "https://github.com/Aas-ee/open-websearch",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283640",
+    "last_seen": "2026-02-20T01:25:26.283641",
+    "owner_repo": "Aas-ee/open-websearch"
+  },
+  "BarnacleLabs/chimera-mcp-smithery": {
+    "name": "chimera-mcp-smithery",
+    "description": "Conduct comprehensive literature reviews efficiently by searching research papers, retrieving detailed paper content, and automatically formatting citations with clickable links. Enhance your research workflow with smart references and easy access to relevant academic resources. Integrate seamlessly with your research tools to streamline paper discovery and review.",
+    "stars": 3163,
+    "source_url": "https://github.com/BarnacleLabs/chimera-mcp-smithery",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283645",
+    "last_seen": "2026-02-20T01:25:26.283647",
+    "owner_repo": "BarnacleLabs/chimera-mcp-smithery"
+  },
+  "plainyogurt21/clintrials-mcp": {
+    "name": "clintrials-mcp",
+    "description": "Provide structured access to ClinicalTrials.gov data for searching, retrieving, and analyzing clinical trial information. Enable multi-parameter searches, detailed trial retrievals, and statistical analyses to support medical research and healthcare decision-making. Deliver robust error handling and flexible field selection to optimize data responses.",
+    "stars": 3826,
+    "source_url": "https://github.com/plainyogurt21/clintrials-mcp",
+    "status": "Not OC (SDK missing)",
+    "discovered_at": "2026-02-20T01:25:26.283650",
+    "last_seen": "2026-02-20T01:25:26.283652",
+    "owner_repo": "plainyogurt21/clintrials-mcp"
+  },
+  "exa-labs/websets-mcp-server": {
+    "name": "websets-mcp-server",
+    "description": "Create and manage collections of companies, people, and papers, automatically discovering and verifying relevant entities. Enrich items with custom fields like CEO name, funding amount, or company stage, and inspect detailed results. Schedule recurring searches to keep collections fresh and catch new additions.",
+    "stars": 3088,
+    "source_url": "https://github.com/exa-labs/websets-mcp-server",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283655",
+    "last_seen": "2026-02-20T01:25:26.283657",
+    "owner_repo": "exa-labs/websets-mcp-server"
+  },
+  "mikechao/metmuseum-mcp": {
+    "name": "metmuseum-mcp",
+    "description": "Access the Metropolitan Museum of Art's collection through natural language queries. Search for artworks, retrieve detailed information, and explore various departments effortlessly. Enhance your AI's capabilities with rich art resources and data.",
+    "stars": 3821,
+    "source_url": "https://github.com/mikechao/metmuseum-mcp",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283660",
+    "last_seen": "2026-02-20T01:25:26.283662",
+    "owner_repo": "mikechao/metmuseum-mcp"
+  },
+  "ssuyjk-del/my-mcp-server": {
+    "name": "my-mcp-server",
+    "description": "Jumpstart your workflow with a ready-to-run TypeScript starter featuring examples for math, greetings, time queries, image generation, and code review. Customize actions, resources, and prompts to fit your needs. Speed up prototyping by extending the included patterns.",
+    "stars": 2939,
+    "source_url": "https://github.com/ssuyjk-del/my-mcp-server",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283665",
+    "last_seen": "2026-02-20T01:25:26.283667",
+    "owner_repo": "ssuyjk-del/my-mcp-server"
+  },
+  "spyfree/mingli-mcp": {
+    "name": "mingli-mcp",
+    "description": "Generate Ziwei Doushu and Bazi charts with insights into palaces, stars, and the five elements. Explore fortunes across decades, years, months, days, and hours to time decisions and plan ahead. Compare available astrology systems and analyze elemental strengths, balance, and gaps.",
+    "stars": 2942,
+    "source_url": "https://github.com/spyfree/mingli-mcp",
+    "status": "Not OC (SDK missing)",
+    "discovered_at": "2026-02-20T01:25:26.283671",
+    "last_seen": "2026-02-20T01:25:26.283672",
+    "owner_repo": "spyfree/mingli-mcp"
+  },
+  "geobio/context7": {
+    "name": "context7",
+    "description": "Provide up-to-date, version-specific code documentation and examples directly into your prompts to enhance coding accuracy and reduce hallucinated APIs. Seamlessly integrate with various MCP clients to fetch the latest library docs and improve your AI coding assistant's effectiveness. Simplify your development workflow by embedding real-time, reliable code context without switching tabs.",
+    "stars": 3078,
+    "source_url": "https://github.com/geobio/context7",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283676",
+    "last_seen": "2026-02-20T01:25:26.283678",
+    "owner_repo": "geobio/context7"
+  },
+  "fozagtx/somnia-mcp": {
+    "name": "somnia-mcp",
+    "description": "Search official Somnia documentation and query on-chain data for accounts, transactions, and blocks. Manage a wallet to view balances, transfer native or token assets, and control allowances. Sign messages, typed data, and transactions with fee guidance for reliable execution.",
+    "stars": 8912,
+    "source_url": "https://github.com/fozagtx/somnia-mcp",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283681",
+    "last_seen": "2026-02-20T01:25:26.283683",
+    "owner_repo": "fozagtx/somnia-mcp"
+  },
+  "chirag127/clear-thought-mcp-server": {
+    "name": "clear-thought-mcp-server",
+    "description": "Provide enhanced problem-solving capabilities by leveraging systematic thinking, mental models, and debugging approaches. Enable structured reasoning and decision-making support for complex challenges. Facilitate integration with MCP-compatible clients for advanced cognitive workflows.",
+    "stars": 2997,
+    "source_url": "https://github.com/chirag127/clear-thought-mcp-server",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283687",
+    "last_seen": "2026-02-20T01:25:26.283688",
+    "owner_repo": "chirag127/clear-thought-mcp-server"
+  },
+  "data-mindset/sts-faker-mcp": {
+    "name": "sts-faker-mcp",
+    "description": "Generate realistic fake data across 23 categories, from people and finance to internet, images, and more. Accelerate testing, prototyping, seeding, and demos with hundreds of ready-made generators. Customize formats like names, addresses, dates, colors, and IDs to match your scenarios.",
+    "stars": 7831,
+    "source_url": "https://github.com/data-mindset/sts-faker-mcp",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283692",
+    "last_seen": "2026-02-20T01:25:26.283694",
+    "owner_repo": "data-mindset/sts-faker-mcp"
+  },
+  "Aman-Amith-Shastry/scientific_computation_mcp": {
+    "name": "scientific_computation_mcp",
+    "description": "This MCP server enables users to perform scientific computations regarding linear algebra and vector calculus through natural language. The server is designed to bridge the gap between users and powerful computational libraries such as NumPy and SymPy. Its goal is to make scientific computing more accessible.",
+    "stars": 4119,
+    "source_url": "https://github.com/Aman-Amith-Shastry/scientific_computation_mcp",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283697",
+    "last_seen": "2026-02-20T01:25:26.283699",
+    "owner_repo": "Aman-Amith-Shastry/scientific_computation_mcp"
+  },
+  "clay-inc/clay-mcp": {
+    "name": "clay-mcp",
+    "description": "Access your network seamlessly with a simple and efficient server. Leverage a variety of tools to enhance your applications and workflows. Start integrating with your existing systems effortlessly.",
+    "stars": 7649,
+    "source_url": "https://github.com/clay-inc/clay-mcp",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283702",
+    "last_seen": "2026-02-20T01:25:26.283704",
+    "owner_repo": "clay-inc/clay-mcp"
+  },
+  "enji/ai-marketing-agent": {
+    "name": "ai-marketing-agent",
+    "description": "Search Enji\u2019s blog, Q&A, and help center to find grounded, source-backed answers to small-business marketing questions. Generate customer personas, brand voice summaries, and tailored social and blog ideas to plan content faster. Access free resources and tools to stay consistent and confident in your marketing.",
+    "stars": 3966,
+    "source_url": "https://github.com/enji/ai-marketing-agent",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283708",
+    "last_seen": "2026-02-20T01:25:26.283710",
+    "owner_repo": "enji/ai-marketing-agent"
+  },
+  "FelixYifeiWang/felix-mcp-smithery": {
+    "name": "felix-mcp-smithery",
+    "description": "Streamline your workflow with Felix. Integrate it into your workspace and tailor its behavior to your needs.",
+    "stars": 2965,
+    "source_url": "https://github.com/FelixYifeiWang/felix-mcp-smithery",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283713",
+    "last_seen": "2026-02-20T01:25:26.283715",
+    "owner_repo": "FelixYifeiWang/felix-mcp-smithery"
+  },
+  "yjiace/alibabacloud-devops-mcp-server": {
+    "name": "alibabacloud-devops-mcp-server",
+    "description": "Manage repositories, projects, work items, and pipelines on Alibaba Cloud Yunxiao. Automate code reviews, create branches and merge requests, and run or monitor CI/CD pipelines and deployments. Streamline collaboration by reducing repetitive tasks across code, packages, and application delivery.",
+    "stars": 5047,
+    "source_url": "https://github.com/yjiace/alibabacloud-devops-mcp-server",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283718",
+    "last_seen": "2026-02-20T01:25:26.283720",
+    "owner_repo": "yjiace/alibabacloud-devops-mcp-server"
+  },
+  "TitanSneaker/paper-search-mcp-openai-v2": {
+    "name": "paper-search-mcp-openai-v2",
+    "description": "Find and download academic papers from leading sources like arXiv, PubMed, bioRxiv, medRxiv, Google Scholar, Semantic Scholar, CrossRef, and IACR. Get standardized results and fetch full-text PDFs when available. Accelerate literature reviews with deep search and effortless retrieval.",
+    "stars": 5222,
+    "source_url": "https://github.com/TitanSneaker/paper-search-mcp-openai-v2",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283724",
+    "last_seen": "2026-02-20T01:25:26.283725",
+    "owner_repo": "TitanSneaker/paper-search-mcp-openai-v2"
+  },
+  "adamamer20/paper-search-mcp-openai": {
+    "name": "paper-search-mcp-openai",
+    "description": "Search and download academic papers from arXiv, PubMed, bioRxiv, medRxiv, Google Scholar, Semantic Scholar, and IACR. Fetch PDFs and extract full text to accelerate literature reviews. Get consistent metadata for easier filtering, citation, and analysis.",
+    "stars": 5751,
+    "source_url": "https://github.com/adamamer20/paper-search-mcp-openai",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283729",
+    "last_seen": "2026-02-20T01:25:26.283730",
+    "owner_repo": "adamamer20/paper-search-mcp-openai"
+  },
+  "Nekzus/npm-sentinel-mcp": {
+    "name": "npm-sentinel-mcp",
+    "description": "Provide AI-powered real-time analysis and intelligence on NPM packages, including security, dependencies, performance, and quality metrics. Enable faster and safer package management decisions by integrating with Claude and Anthropic AI. Deliver comprehensive insights such as vulnerability scanning, download trends, and maintenance status to optimize your npm ecosystem.",
+    "stars": 15206,
+    "source_url": "https://github.com/Nekzus/npm-sentinel-mcp",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283736",
+    "last_seen": "2026-02-20T01:25:26.283738",
+    "owner_repo": "Nekzus/npm-sentinel-mcp"
+  },
+  "kwp-lab/rss-reader-mcp": {
+    "name": "rss-reader-mcp",
+    "description": "Track and browse RSS feeds with ease. Fetch the latest entries from any feed URL and extract full article content for clean, distraction-free reading. Save or analyze articles in a consistent, structured format.",
+    "stars": 3356,
+    "source_url": "https://github.com/kwp-lab/rss-reader-mcp",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283742",
+    "last_seen": "2026-02-20T01:25:26.283744",
+    "owner_repo": "kwp-lab/rss-reader-mcp"
+  },
+  "xiaobenyang-com/calculator": {
+    "name": "calculator",
+    "description": "\u5b8c\u6210\u4ece\u57fa\u7840\u56db\u5219\u8fd0\u7b97\u5230\u9ad8\u7b49\u6570\u5b66\u3001\u7edf\u8ba1\u3001\u77e9\u9635\u4e0e\u6570\u8bba\u7684\u5404\u7c7b\u8ba1\u7b97\u3002\u5904\u7406\u51e0\u4f55\u6c42\u89e3\u3001\u91d1\u878d\u6d4b\u7b97\u4e0e\u5355\u4f4d\u6362\u7b97\u7b49\u5e38\u89c1\u9700\u6c42\u3002\u52a0\u901f\u516c\u5f0f\u9a8c\u8bc1\u3001\u6570\u636e\u5206\u6790\u4e0e\u5de5\u7a0b\u5efa\u6a21\u7684\u5de5\u4f5c\u6d41\u7a0b\u3002",
+    "stars": 2817,
+    "source_url": "https://github.com/xiaobenyang-com/calculator",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283747",
+    "last_seen": "2026-02-20T01:25:26.283749",
+    "owner_repo": "xiaobenyang-com/calculator"
+  },
+  "xiaobenyang-com/time-mcp": {
+    "name": "time-mcp",
+    "description": "Get the current time, timestamps, and days in any month. Convert times across time zones and calculate relative times. Find ISO week and week-of-year instantly.",
+    "stars": 3002,
+    "source_url": "https://github.com/xiaobenyang-com/time-mcp",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283752",
+    "last_seen": "2026-02-20T01:25:26.283754",
+    "owner_repo": "xiaobenyang-com/time-mcp"
+  },
+  "nihalxkumar/arch-mcp": {
+    "name": "arch-mcp",
+    "description": "Explore the Arch Linux ecosystem with fast search across the Arch Wiki, AUR, and official repositories. Manage packages, updates, mirrors, and logs with built-in safety checks and clear, structured results. Troubleshoot issues and plan secure installs with guided workflows.\n\nPrefer Local Installation: https://nxk.mintlify.app/arch-mcp/install",
+    "stars": 16323,
+    "source_url": "https://github.com/nihalxkumar/arch-mcp",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283758",
+    "last_seen": "2026-02-20T01:25:26.283759",
+    "owner_repo": "nihalxkumar/arch-mcp"
+  },
+  "hydavinci/formula-1-schedule": {
+    "name": "formula-1-schedule",
+    "description": "Provide up-to-date and historical Formula 1 race schedules for any specified year. Retrieve detailed race calendars including dates, circuit details, and session times with reliable data sources and caching for performance. Enable seamless integration of F1 calendar data into your applications via a simple MCP tool.",
+    "stars": 2712,
+    "source_url": "https://github.com/hydavinci/formula-1-schedule",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283763",
+    "last_seen": "2026-02-20T01:25:26.283764",
+    "owner_repo": "hydavinci/formula-1-schedule"
+  },
+  "ramadasmr/networkcalc-mcp": {
+    "name": "networkcalc-mcp",
+    "description": "MCP Server for utilities from networkcalc.com\n\nUtilities Include\n- DNS Lookup\n- WHOIS Lookup\n- SPF Lookup\n- Certificate Lookup\n- Subnet Lookup",
+    "stars": 3313,
+    "source_url": "https://github.com/ramadasmr/networkcalc-mcp",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283768",
+    "last_seen": "2026-02-20T01:25:26.283770",
+    "owner_repo": "ramadasmr/networkcalc-mcp"
+  },
+  "cameronapak/free-use-bible-mcp": {
+    "name": "free-use-bible-mcp",
+    "description": "Get Scripture from the Bible using Bible MCP. \n\nThank you to AO Lab for the Free Use Bible API that makes this possible.\n\nOpen source. Freely given. ",
+    "stars": 2725,
+    "source_url": "https://github.com/cameronapak/free-use-bible-mcp",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283773",
+    "last_seen": "2026-02-20T01:25:26.283775",
+    "owner_repo": "cameronapak/free-use-bible-mcp"
+  },
+  "mochow13/google-scholar-mcp": {
+    "name": "google-scholar-mcp",
+    "description": "Provide academic paper search capabilities by querying Google Scholar through a standardized MCP interface. Enable real-time streaming of search results and support multi-session interactions for seamless integration with AI models. Enhance research workflows by delivering structured scholarly data on demand.",
+    "stars": 3276,
+    "source_url": "https://github.com/mochow13/google-scholar-mcp",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283782",
+    "last_seen": "2026-02-20T01:25:26.283787",
+    "owner_repo": "mochow13/google-scholar-mcp"
+  },
+  "salrad/code-sentinel": {
+    "name": "code-sentinel",
+    "description": "Expose security vulnerabilities, deceptive constructs, and unfinished code before they reach production. Reveal architectural and design pattern usage with clear, actionable guidance to improve consistency and maintainability. Generate concise visual reports that highlight strengths and prioritize issues to speed up reviews and refactoring.",
+    "stars": 3420,
+    "source_url": "https://github.com/salrad/code-sentinel",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283796",
+    "last_seen": "2026-02-20T01:25:26.283801",
+    "owner_repo": "salrad/code-sentinel"
+  },
+  "Waldzell-Agentics/mcp-server": {
+    "name": "mcp-server",
+    "description": "Find places and addresses with precise geocoding, or search by category or brand. Plan routes and compare travel times using directions, isochrones, and distance matrices. Generate static map images to visualize locations and share context.",
+    "stars": 3460,
+    "source_url": "https://github.com/Waldzell-Agentics/mcp-server",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283810",
+    "last_seen": "2026-02-20T01:25:26.283815",
+    "owner_repo": "Waldzell-Agentics/mcp-server"
+  },
+  "hithereiamaliff/mcp-keywords-everywhere": {
+    "name": "mcp-keywords-everywhere",
+    "description": "Provide AI assistants with powerful SEO research capabilities by accessing keyword data, domain analysis, backlink information, and traffic metrics. Enable comprehensive keyword research and competitive analysis across multiple countries and currencies. Simplify SEO data retrieval and analysis for enhanced decision-making.\n\nNote: this is NOT an official MCP server by Keywords Everywhere.",
+    "stars": 3989,
+    "source_url": "https://github.com/hithereiamaliff/mcp-keywords-everywhere",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283823",
+    "last_seen": "2026-02-20T01:25:26.283828",
+    "owner_repo": "hithereiamaliff/mcp-keywords-everywhere"
+  },
+  "leaper-mcp/leaper-mcp-proxy": {
+    "name": "leaper-mcp-proxy",
+    "description": "Convert images to desired formats or styles seamlessly. Enhance your applications with flexible image processing capabilities. Simplify image transformations through a standardized protocol interface.",
+    "stars": 10760,
+    "source_url": "https://github.com/leaper-mcp/leaper-mcp-proxy",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283837",
+    "last_seen": "2026-02-20T01:25:26.283842",
+    "owner_repo": "leaper-mcp/leaper-mcp-proxy"
+  },
+  "shinzo-labs/hubspot-mcp": {
+    "name": "hubspot-mcp",
+    "description": "Access and manage your CRM data seamlessly with 100+ tools in our HubSpot MCP implementation including manipulation of Contacts, Companies, and Associations.\n\nFollow the steps here to get a free Developer API Key (save as HUBSPOT_ACCESS_TOKEN): https://developers.hubspot.com/docs/guides/api/overview",
+    "stars": 3415,
+    "source_url": "https://github.com/shinzo-labs/hubspot-mcp",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283851",
+    "last_seen": "2026-02-20T01:25:26.283856",
+    "owner_repo": "shinzo-labs/hubspot-mcp"
+  },
+  "Turf-Tech/turf-mcp-server": {
+    "name": "turf-mcp-server",
+    "description": "Get real-time market data across global equities and crypto to accelerate investment research. Search academic literature and scan the live web for up-to-date sources and citations. Tap curated learning resources and niche datasets, including DevOps/web-dev guides, SAT prep, and updates on the SLC Punk documentary.",
+    "stars": 7062,
+    "source_url": "https://github.com/Turf-Tech/turf-mcp-server",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283864",
+    "last_seen": "2026-02-20T01:25:26.283869",
+    "owner_repo": "Turf-Tech/turf-mcp-server"
+  },
+  "helix-song/coinex_mcp_server": {
+    "name": "coinex_mcp_server",
+    "description": "# CoinEx MCP Server\n\nA Model Context Protocol (MCP) server that enables AI agents to interact seamlessly with the CoinEx cryptocurrency exchange. This server provides comprehensive access to market data, trading operations, and account management through a standardized MCP interface.\n\n## Key Features\n\n- **Market Data Access**: Retrieve real-time tickers, order books, K-lines, and recent trades for both spot and futures markets\n- **Futures Analytics**: Access funding rates, premium indices, basis history, position tiers, and liquidation data\n- **Account Management**: Query account balances and manage trading positions\n- **Order Operations**: Place, cancel, and track orders with full history access\n- **Flexible Deployment**: Supports multiple transport protocols (stdio, HTTP, SSE) for various integration scenarios\n\n## Quick Start\n\n### Installation via http (Recommended)\njust add this url `https://mcp.coinex.com/mcp`  to your mcp configuration in agent. for example, use this command to add it to your claude code: \n```\nclaude mcp add --transport http coinex-mcp-server https://mcp.coinex.com/mcp\n```\n\n### Installation via uvx (Support get balance / place order by API key)\n\nConfigure your MCP client (e.g., Claude Desktop) with the following JSON:\n\n```json\n{\n  \"mcpServers\": {\n    \"coinex\": {\n      \"command\": \"uvx\",\n      \"args\": [\"coinex-mcp-server\"],\n      \"env\": {\n        \"COINEX_ACCESS_ID\": \"your_access_id_here\",\n        \"COINEX_SECRET_KEY\": \"your_secret_key_here\"\n      }\n    }\n  }\n}\n```\n\n### HTTP Mode Deployment by source code\n* install \n`pip install coinex-mcp-server`\n\n* start the server in HTTP mode:\n```bash\npython -m coinex_mcp_server.main --transport http --host 127.0.0.1 --port 8000 --path /mcp --enable-http-auth\n```\nPass credentials via HTTP headers:\n- `X-CoinEx-Access-Id: <your_access_id>`\n- `X-CoinEx-Secret-Key: <your_secret_key>`\n\n## Usage Examples\n\n- **Get Market Tickers**: `list_markets(market_type=\"spot\")` or `get_tickers(symbol=\"BTCUSDT\")`\n- **Query Order Book**: `get_orderbook(symbol=\"BTCUSDT\", limit=20)`\n- **Check Account Balance**: `get_account_balance()`\n- **Place Order**: `place_order(symbol=\"BTCUSDT\", side=\"buy\", type=\"limit\", amount=\"0.01\", price=\"50000\")`\n\n## Security Notes\n\n\u26a0\ufe0f **Important**: \n- Never expose HTTP authentication in public services\n- Deploy with HTTPS/TLS in production environments\n",
+    "stars": 3645,
+    "source_url": "https://github.com/helix-song/coinex_mcp_server",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283881",
+    "last_seen": "2026-02-20T01:25:26.283886",
+    "owner_repo": "helix-song/coinex_mcp_server"
+  },
+  "OEvortex/ddg_search": {
+    "name": "ddg_search",
+    "description": "Provide fast, privacy-friendly web and AI-powered search capabilities with integrated content and metadata extraction. Enhance your AI assistants by enabling comprehensive web scraping without requiring API keys. Optimize performance with caching and secure usage through rate limiting and user agent rotation.",
+    "stars": 15801,
+    "source_url": "https://github.com/OEvortex/ddg_search",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283895",
+    "last_seen": "2026-02-20T01:25:26.283900",
+    "owner_repo": "OEvortex/ddg_search"
+  },
+  "dravidsajinraj-iex/code-runner-mcp": {
+    "name": "code-runner-mcp",
+    "description": "Execute JavaScript and Python code securely in isolated environments with comprehensive security restrictions. Pass dynamic input variables and receive detailed execution results including output, errors, and resource usage. Benefit from a security-first design that blocks dangerous operations and enforces execution timeouts to protect your system.",
+    "stars": 7803,
+    "source_url": "https://github.com/dravidsajinraj-iex/code-runner-mcp",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283953",
+    "last_seen": "2026-02-20T01:25:26.283965",
+    "owner_repo": "dravidsajinraj-iex/code-runner-mcp"
+  },
+  "mirodn/mcp-server-public-transport": {
+    "name": "mcp-server-public-transport",
+    "description": "Access real-time public transport across Europe with live departures, connections, and vehicle details. Plan door-to-door trips, search stations and places, and find nearby stops with up-to-the-minute results. Benefit from coverage in the UK, Switzerland, Belgium, and Norway.",
+    "stars": 2807,
+    "source_url": "https://github.com/mirodn/mcp-server-public-transport",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.283977",
+    "last_seen": "2026-02-20T01:25:26.283983",
+    "owner_repo": "mirodn/mcp-server-public-transport"
+  },
+  "mrseanchow/cowsay-mcp": {
+    "name": "cowsay-mcp",
+    "description": "Cowsay MCP Server, providing ASCII art cow capabilities for LLMs. This implementation allows language models to generate fun ASCII art cows with custom messages.",
+    "stars": 3266,
+    "source_url": "https://github.com/mrseanchow/cowsay-mcp",
+    "status": "Ready for OC",
+    "discovered_at": "2026-02-20T01:25:26.283995",
+    "last_seen": "2026-02-20T01:25:26.284000",
+    "owner_repo": "mrseanchow/cowsay-mcp"
+  },
+  "cuongpo/hyperion-mcp-server": {
+    "name": "hyperion-mcp-server",
+    "description": "Enable seamless interaction with the Hyperion blockchain through a standardized MCP interface. Manage wallets, send transactions, query blockchain data, and interact with smart contracts effortlessly. Simplify building and integrating Hyperion-based applications with comprehensive developer tools and robust error handling.",
+    "stars": 9216,
+    "source_url": "https://github.com/cuongpo/hyperion-mcp-server",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.284010",
+    "last_seen": "2026-02-20T01:25:26.284015",
+    "owner_repo": "cuongpo/hyperion-mcp-server"
+  },
+  "momo590/mcp-sse-immolog": {
+    "name": "mcp-sse-immolog",
+    "description": "Provide a specialized MCP server using Server-Sent Events (SSE) to integrate Immolog's business tools and prompts. Enable seamless connection with LibreChat and other clients for real-time data and action handling. Customize and extend the server to fit specific business needs with ease.",
+    "stars": 4353,
+    "source_url": "https://github.com/momo590/mcp-sse-immolog",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.284025",
+    "last_seen": "2026-02-20T01:25:26.284029",
+    "owner_repo": "momo590/mcp-sse-immolog"
+  },
+  "seahbk1006/seahboonkeong-chat-bnmapi": {
+    "name": "seahboonkeong-chat-bnmapi",
+    "description": "\nMCP for public datasets on BNM Open Data API (Developed by Seah Boon Keong)\nAllows users to access a wide range of financial and economic data published by Bank Negara Malaysia. Users can retrieve data on various economic indicators such as current exchange rates, OPR, interbank activity, government bond yields, monetary aggregates, reserves, gold prices, consumer alerts, etc.",
+    "stars": 9807,
+    "source_url": "https://github.com/seahbk1006/seahboonkeong-chat-bnmapi",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.284039",
+    "last_seen": "2026-02-20T01:25:26.284044",
+    "owner_repo": "seahbk1006/seahboonkeong-chat-bnmapi"
+  },
+  "icons8community/icons8mcp": {
+    "name": "icons8mcp",
+    "description": "",
+    "stars": 3883,
+    "source_url": "https://github.com/icons8community/icons8mcp",
+    "status": "Unknown (Repo/File not found)",
+    "discovered_at": "2026-02-20T01:25:26.284053",
+    "last_seen": "2026-02-20T01:25:26.284062",
+    "owner_repo": "icons8community/icons8mcp"
+  }
+}
