@@ -1,5 +1,5 @@
 <script>
-const ATLAS_PUBLIC_BASE = import.meta.env.VITE_ATLAS_PUBLIC_DATA_BASE as string | undefined;
+const ATLAS_PUBLIC_BASE = import.meta.env.VITE_ATLAS_PUBLIC_DATA_BASE;
 const USE_ATLAS_PUBLIC = !!ATLAS_PUBLIC_BASE && typeof window !== "undefined" && !["localhost","127.0.0.1"].includes(window.location.hostname);
 
   import RunBrowser from "./RunBrowser.svelte";
