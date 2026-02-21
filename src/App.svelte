@@ -1,8 +1,12 @@
+const ATLAS_PUBLIC_BASE = import.meta.env.VITE_ATLAS_PUBLIC_DATA_BASE as string | undefined;
+const USE_ATLAS_PUBLIC = !!ATLAS_PUBLIC_BASE && typeof window !== "undefined" && !["localhost","127.0.0.1"].includes(window.location.hostname);
+
 <script>
   import RunBrowser from "./RunBrowser.svelte";
   import DashboardView from "./Dashboard/DashboardView.svelte";
   import DebugPanel from "./DebugPanel.svelte";
   import { fetchWithMeta } from "./api.js";
+  import { isPublicData, getLatestUrl, getIndexUrl } from "./config.js";
 
   let selectedRunId = $state(null);
   let runs = $state([]);
@@ -14,25 +18,44 @@
   $effect(() => {
     if (typeof window !== "undefined") {
       debugMode = new URLSearchParams(window.location.search).get("debug") === "1";
+      const hash = window.location.hash.slice(1);
+      const m = hash.match(/^\/?run\/([^/]+)/);
+      if (m && m[1]) selectedRunId = m[1];
     }
   });
 
   async function loadRuns() {
     try {
       if (debugMode) {
-        const meta = await fetchWithMeta("/api/atlas/", { as: "json" });
+        const url = isPublicData() ? getIndexUrl() : "/api/atlas/";
+        const meta = await fetchWithMeta(url || "/api/atlas/", { as: "json" });
         if (meta) {
           debugInfo = { ...debugInfo, runs: { url: meta.url, status: meta.status, contentType: meta.contentType, bodyPreview: meta.bodyPreview } };
-          runs = meta.data?.runs ?? [];
+          runs = (meta.data?.runs ?? []).map((r) => (typeof r === "string" ? { run_id: r } : r));
         }
+      } else if (isPublicData() && getLatestUrl()) {
+        const latestUrl = getLatestUrl();
+        const latestRes = await fetch(latestUrl);
+        const latest = latestRes.ok ? await latestRes.json() : null;
+        const runIdFromLatest = latest?.run_id;
+        const indexUrl = getIndexUrl();
+        const indexRes = indexUrl ? await fetch(indexUrl) : null;
+        const indexData = indexRes?.ok ? await indexRes.json() : { runs: [] };
+        runs = (indexData.runs ?? []).map((r) => (typeof r === "string" ? { run_id: r } : r));
+        if (runIdFromLatest && !runs.some((x) => x.run_id === runIdFromLatest)) {
+          runs = [{ run_id: runIdFromLatest, published_at: latest?.published_at }].concat(runs);
+        }
+        if (runIdFromLatest && !selectedRunId) {
+          selectedRunId = runIdFromLatest;
+          if (typeof window !== "undefined") window.location.hash = `#/run/${runIdFromLatest}`;
+        }
+        if (runs.length > 0 && !selectedRunId) selectedRunId = runs[0].run_id;
       } else {
         const r = await fetch("/api/atlas/");
         const data = await r.json();
         const allRuns = data.runs ?? [];
         runs = allRuns.filter((run) => !(run.run_id || "").startsWith("ui-smoke-"));
-      }
-      if (runs.length > 0 && !selectedRunId) {
-        selectedRunId = runs[0].run_id;
+        if (runs.length > 0 && !selectedRunId) selectedRunId = runs[0].run_id;
       }
       if (debugMode && selectedRunId) {
         debugInfo = { ...debugInfo, runId: selectedRunId };
@@ -48,6 +71,7 @@
 
   function onSelectRun(id) {
     selectedRunId = id;
+    if (typeof window !== "undefined") window.location.hash = `#/run/${id}`;
     if (debugMode) {
       debugInfo = { ...debugInfo, runId: id };
     }

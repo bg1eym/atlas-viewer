@@ -1,5 +1,6 @@
 <script>
   import { fetchJsonOrNull, fetchTextOrNull, fetchTextWithMeta, fetchWithMeta } from "./api.js";
+  import { getRunDataBase } from "./config.js";
 
   let { runId, debugMode = false, debugInfo = {}, onDebugUpdate } = $props();
 
@@ -25,7 +26,7 @@
 
   async function loadRun() {
     if (!runId) return;
-    const base = `/api/atlas/${runId}`;
+    const base = getRunDataBase(runId);
     renderedTextRoutingError = null;
     try {
       const renderedUrl = `${base}/rendered_text.txt`;

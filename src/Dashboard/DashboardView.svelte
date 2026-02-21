@@ -1,5 +1,6 @@
 <script>
   import { fetchJsonOrNull, fetchWithMeta } from "../api.js";
+  import { getRunDataBase } from "../config.js";
   import Panel from "./Panel.svelte";
   import Header from "./Header.svelte";
   import KpiCards from "./KpiCards.svelte";
@@ -121,7 +122,7 @@
 
   async function loadRun() {
     if (!runId) return;
-    const base = `/api/atlas/${runId}`;
+    const base = getRunDataBase(runId);
     try {
       const renderMetaUrl = `${base}/render_meta.json`;
       let rm;

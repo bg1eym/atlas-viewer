@@ -1,5 +1,6 @@
 <script>
   import { fetchJsonOrNull, fetchTextOrNull } from "../api.js";
+  import { getRunDataBase } from "../config.js";
 
   let { runId, acceptanceReport, auditSummary, provenance, expanded = false, onExpand } = $props();
 
@@ -15,7 +16,7 @@
 
   $effect(() => {
     if (expanded && runId && (open || expanded)) {
-      const base = `/api/atlas/${runId}`;
+      const base = getRunDataBase(runId);
       Promise.all([
         fetchJsonOrNull(`${base}/tg/provenance.json`),
         fetchTextOrNull(`${base}/tg/sent_text.txt`),
