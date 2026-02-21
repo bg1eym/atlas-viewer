@@ -51,7 +51,26 @@ const USE_ATLAS_PUBLIC = !!ATLAS_PUBLIC_BASE && typeof window !== "undefined" &&
         }
         if (runs.length > 0 && !selectedRunId) selectedRunId = runs[0].run_id;
       } else {
-        const r = await fetch("/api/atlas/");
+        
+let runs = []
+if (USE_ATLAS_PUBLIC) {
+  try {
+    const idx = await (await fetch(`${ATLAS_PUBLIC_BASE}/index.json`)).json()
+    const latest = await (await fetch(`${ATLAS_PUBLIC_BASE}/latest.json`)).json()
+    const ids = Array.isArray(idx) ? idx : (idx?.runs ?? [])
+    runs = ids.map((x:any)=>({ run_id: String(x) }))
+    if (latest?.run_id && !runs.find((r:any)=>r.run_id===latest.run_id)) {
+      runs.unshift({ run_id: String(latest.run_id) })
+    }
+  } catch {
+    runs = []
+  }
+} else {
+  const r = await fetch("/api/atlas/")
+  const data = await r.json()
+  runs = data.runs ?? []
+}
+
         const data = await r.json();
         const allRuns = data.runs ?? [];
         runs = allRuns.filter((run) => !(run.run_id || "").startsWith("ui-smoke-"));
